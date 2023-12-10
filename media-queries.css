@@ -1,0 +1,189 @@
+@media screen and (max-width: 1200px) {
+    .head {
+        width: 684px;
+    }
+
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    .card {
+        box-sizing: border-box;
+        width: 332px;
+        height: 240px;
+        padding: 10px;
+        border-radius: 10px;
+        border: 2px solid black;
+    }
+
+    .card .buttons {
+        font-size: 0.9rem;
+        font-family: 'Press Start 2P', monospace;
+    }
+
+    .card .buttons .read-button {
+        position: relative;
+        top: 65%;
+        left: 4%;
+    }
+
+    .read-button {
+        width: 128px;
+        height: 50px;
+        border-radius: 20px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .header {
+        height: 4.1%;
+    }
+    
+    .header .header_link {
+        font-size: 30px;
+    }
+    
+    .graph_element_left {
+        top: 4.1%;
+    }
+
+    .graph_element_left img {
+        width: 60%;
+    }
+    
+    /* sidebar style sidebar style sidebar style sidebar style sidebar style sidebar style sidebar style sidebar style sidebar style sidebar style sidebar style sidebar style*/ 
+    
+    .sidebar {
+        top: 4.1%;
+        left: -100px;
+    }
+    
+    .sidebar.active {
+        margin-left: 90px;
+    }
+    
+    .sidebar .sidebar_content #menu_btn {
+        margin-left: 90px;
+    }
+    
+    .sidebar.active .sidebar_content #menu_btn {
+        margin-left: 0px;
+    }
+
+    .graph_element_right {
+        top: 4.1%;
+        right: -12px;
+    }
+
+    .graph_element_right img {
+        width: 60%;
+    }
+
+    .sidebar.active ~ .content {
+        left: 0;
+        width: 100%
+    }
+
+    .sidebar:not(.active) ~ .content {
+        left: 0;
+        width: 100%
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .head {
+        width: 592px;
+        justify-content: flex-start;
+    }
+    
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    .card {
+        box-sizing: border-box;
+        width: 296px;
+        height: 204px;
+    }
+
+    .card .buttons {
+        font-size: 0.8rem;
+    }
+
+    .card .buttons .read-button {
+        top: 60%;
+        left: 0.5%;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .content {
+        padding: 10%;
+        justify-content: flex-start;
+    }
+    
+    .content_space {
+        grid-template-columns: 1fr ;
+
+    }
+
+    .head {
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .head {
+        width: 296px;
+    }
+
+    h1 {
+        font-size: 1.3rem;
+    }
+
+    .card {
+        box-sizing: border-box;
+        width: 296px;
+        height: 204px;
+    }
+
+    .card .buttons {
+        font-size: 0.8rem;
+    }
+
+    .card .buttons .read-button {
+        top: 60%;
+        left: 0.5%;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .head {
+        width: 255px;
+    }
+
+    h1 {
+        font-size: 1.2rem;
+    }
+
+    .card {
+        box-sizing: border-box;
+        width: 255px;
+        height: 163px;
+    }
+
+    .card .buttons {
+        font-size: 0.8rem;
+    }
+
+    .card .buttons .read-button {
+        top: 60%;
+        left: 0.5%;
+    }
+
+    .read-button {
+        width: 108px;
+        height: 35px;
+        border-radius: 15px;
+    }
+}
