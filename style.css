@@ -46,6 +46,7 @@ body {
     position: fixed;
     top: 5.5%;
     left: 0;
+    height: 100vh;
     z-index: 2;
 }
 
@@ -324,6 +325,7 @@ h1 {
 .graph_element_right {
     position: fixed;
     top: 5.5%;
+    height: 100vh;
     right: 0;
 }
 
